@@ -112,6 +112,7 @@ li a:hover {
     row-gap: 2rem;
     column-gap: 6rem;
     align-items: center;
+    widht: 300px;
 }
 .main h3 {
     color: #fff;
