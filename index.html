@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.scss">
+    <title>Delorreta Web</title>
+</head>
+
+<body>
+    <audio id="background-music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+        Ваш браузер не підтримує відтворення звуку.
+    </audio>
+
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a href="#">Tkov</a>
+            </div>
+            <input type="checkbox" id="click">
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="main">
+            <div class="images">
+                <img src="tania.jpeg" alt="" class="img-w">
+            </div>
+            <div class="detail">
+                <h3>Вітаю, Я</h3>
+                <h1><span style="color:#f9532d;">Таня</span> Ковальська</h1>   
+                <div class="social">
+                    <a href="https://www.tiktok.com/@holixwin?_t=8o2XdKIpwmr&_r=1" style="--socialAni:1"><i class='bx bxl-tiktok'></i></a>
+                    <a href="https://www.instagram.com/tania20.08" style="--socialAni:2"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://t.me/taniaksq" style="--socialAni:3"><i class='bx bxl-telegram'></i></a>
+
+                </div>
+                <button id="toggle-music" class="music-button">Включити музику</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
